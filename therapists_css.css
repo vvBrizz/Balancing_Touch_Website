@@ -170,19 +170,24 @@ iframe {
     .burger {
         display: block;
     }
+}
 
-    .image img {
-        width: 25rem !important;
-        height: 25rem !important;
-        position: relative;
-    }
+@media screen and (max-width:1420px) {
+  .image {
+    width: 20% !important;
+  }
+}
 
-    .image {
-        width: 25rem !important;
-        height: 25rem !important;
-        box-sizing: border-box;
-        border: 10px white solid;
-    }
+@media screen and (max-width:1180px) {
+  .image {
+    width: 25% !important;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .image {
+    width: 40% !important;
+  }
 }
 
 @media screen and (max-width:320px) {
@@ -246,7 +251,7 @@ footer {
     margin-top: 4rem;
     text-align: center;
     justify-content: center;
-    max-width: 50vw;
+    max-width: 75vw;
 }
 
 .container {
@@ -279,8 +284,9 @@ h2 {
 }
 
 .image img {
-    width: 35rem;
-    height: 40rem;
+    object-fit: contain;
+    width: 100%;
+
 }
 
 p {
@@ -349,19 +355,15 @@ p {
 }
 
 .image {
-    width: 35rem;
-    height: 35rem;
-	box-sizing: border-box;
-	border: 3px white solid;
-	border-radius: 50%;
-	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
+    width: 17%;
+	  box-sizing: border-box;
+	  border: 3px white solid;
+	  overflow: hidden;
+	  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	  transform: translatey(0px);
+	  animation: float 6s ease-in-out infinite;
     margin-top: 10rem;
     margin-bottom: 5rem;
-    justify-content: center;
-    align-items: center;
 }
 
 .my-container {

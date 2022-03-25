@@ -284,12 +284,8 @@ p {
     margin-bottom: 5rem;
 }
 
-.button{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-bottom: 0rem;
-  height: 10rem;
+.button a {
+  margin-top: 5rem !important;
 }
 
 .btn {
@@ -305,10 +301,10 @@ p {
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
-  text-decoration:none;
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-weight:900;
-  font-size:17px;
+  font-weight: 900;
+  font-size: 17px;
   letter-spacing: 0.045em;
 }
 
@@ -393,7 +389,7 @@ p {
   font-size:15px;
   line-height:24px;
   color:#737373;
-  margin-top: 30rem;
+  margin-top: 15rem;
 }
 .site-footer hr
 {
