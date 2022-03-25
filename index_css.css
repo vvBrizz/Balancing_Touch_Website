@@ -204,8 +204,23 @@ dl {
     }
 }
 
-.nav-active {
-    transform: translateX(0%);
+@media screen and (max-width:768px) {
+  .nav-active {
+      transform: translateX(0%);
+      position: fixed;
+      z-index: 90;
+  }
+
+  .inactive {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    margin-bottom: 5rem;
+  }
+  
+  .my-container h1 {
+    margin-top: 5rem;
+  }
 }
 
 @keyframes navLinkFade {
