@@ -69,6 +69,16 @@ dl {
     list-style: none;
 }
 
+.btn2 {
+  margin-inline: 3rem;
+}
+
+@media screen and (max-width:768px) {
+  .btn2 {
+    margin-inline: 15rem;
+  }
+}
+
 .nav-links a {
     color: rgb(255,255,255);
     text-decoration: none;
@@ -86,7 +96,7 @@ dl {
     display: block;
     width: 0;
     height: 3px;
-    background-color: lightgoldenrodyellow;
+    background-color: #FF8282;
     transition: width .3s;
 }
 
@@ -461,6 +471,10 @@ p {
 .copyright-text
 {
   margin: 0 auto;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
 }
 @media (max-width:991px)
 {

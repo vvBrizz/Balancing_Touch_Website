@@ -86,7 +86,7 @@ dl {
   display: block;
   width: 0;
   height: 3px;
-  background-color: lightgoldenrodyellow;
+  background-color: #FF8282;
   transition: width .3s;
 }
 
@@ -310,6 +310,14 @@ align-items: center;
 
 .my-container h2 {
   text-shadow: 2px 2px #FF8282;
+}
+
+.my-container .box-1 h2 {
+  text-shadow: 2px 2px #add8e6;
+}
+
+.name2 {
+  text-shadow: 2px 2px #CF9FFF !important;
 }
 
 @keyframes float {

@@ -79,7 +79,7 @@ body {
     display: block;
     width: 0;
     height: 3px;
-    background-color: lightgoldenrodyellow;
+    background-color: #FF8282;
     transition: width .3s;
 }
 
