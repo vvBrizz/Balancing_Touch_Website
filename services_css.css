@@ -273,6 +273,7 @@ footer {
     margin-top: 4rem;
     text-align: center;
     justify-content: center;
+    padding-left: 0px !important;
 }
 
 .copyright-container {
@@ -291,7 +292,7 @@ h1 {
 }
 
 h2 {
-    color: #434343;
+    color: #ffff;
     font-size: 4rem;
     font-weight: 400;
 }
@@ -335,6 +336,7 @@ p {
   font-weight: 900;
   font-size: 17px;
   letter-spacing: 0.045em;
+  padding-left: 0px !important;
 }
 
 .btn svg {
